@@ -4,7 +4,8 @@ import './styles.css';
 
 export default class Main extends Component {
 	state = {
-		products: []
+		products: [],
+		productInfo: {}
 	};
 
 	componentDidMount() {
@@ -13,8 +14,9 @@ export default class Main extends Component {
 
 	loadProducts = async () => {
 		const response = await api.get('/products');
-		this.setState({ products: response.data.docs });
-		console.log(response.data);
+
+		const { docs, ...productInfo } = response.data;
+		this.setState({ products: docs, productInfo });
 	};
 
 	prevPage = () => {};
