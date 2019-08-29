@@ -9,3 +9,4 @@ React app consuming a Rocketseat's heroku products api
 
 ![huntweb-snapshot](https://user-images.githubusercontent.com/44209758/63945655-175ef300-ca4a-11e9-9cb4-c4b4b61872d5.png)
 
+![huntweb-snapshot2](https://user-images.githubusercontent.com/44209758/63945790-5ab96180-ca4a-11e9-81cb-cc393fdb5526.png)
